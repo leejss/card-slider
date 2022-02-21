@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-block-size: 100vh;
+  background-color: cadetblue;
+}
+
+.SlideContainer {
+}
+
+.SlideWrapper {
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+  width: 300px;
+  height: 500px;
+  background-color: #fff;
+  overflow-x: scroll;
+}
